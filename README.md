@@ -1,7 +1,7 @@
 # Giovana Marques - Data Scientist
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/giovana-marques-910933180/)
-[![Email](https://img.shields.io/badge/Email-gvnmrqs@gmai.com-red?style=flat-square)](mailto:gvnmrqs@gmai.com)
+[![Email](https://img.shields.io/badge/Email-gvnmrqs@gmai.com-red?style=flat-square)](mailto:gvnmrqs@gmail.com)
 
 ## 👩‍💻 About Me
 
