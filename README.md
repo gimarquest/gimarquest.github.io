@@ -27,7 +27,7 @@ I am a professional Data Scientist with a strong background in statistics and ma
 
 ## 📫 Contact
 
-- **Email:** [gvnmrqs@gmai.com](mailto:gvnmrqs@gmai.com)
+- **Email:** [gvnmrqs@gmai.com](mailto:gvnmrqs@gmail.com)
 - **LinkedIn:** [Giovana Marques](https://www.linkedin.com/in/giovana-marques-910933180/)
 
 ---
