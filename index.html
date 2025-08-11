@@ -10,7 +10,8 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #000000;
       color: #cccccc;
-      padding-top: 220px; /* altura aproximada do header fixo */
+      padding-top: 80px; 
+      /* padding-top: 220px;  altura aproximada do header fixo */
     }
     header {
       background-color: #111111;
@@ -27,6 +28,10 @@
       margin-top: 0.5rem;
     }
     nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 999;
       background-color: #1a1a1a;
       padding: 1rem;
       text-align: center;
@@ -76,7 +81,7 @@
   </style>
 </head>
 <body>
-  <header  style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: #111111; color: #ffffff; padding: 2rem 1rem; text-align: center;">
+  <header  style="top: 0; left: 0; width: 100%; z-index: 1000; background-color: #111111; color: #ffffff; padding: 2rem 1rem; text-align: center;">
     <h1>Giovana M. Trindade</h1>
     <p>Data Scientist</p>
     <div class="contact">
@@ -107,12 +112,12 @@
         Proven ability to manage and analyze large datasets, develop predictive models, 
         and communicate insights effectively to stakeholders. 
         Adept at working in collaborative environments and leading data-driven projects.
-        Passionate about leveraging data to drive strategic decision-making, 
-        I'm constantly seeking opportunities to learn more and to challenge myself.</p>
+        Passionate about leveraging data to drive strategic decision-making and 
+        constantly seeking opportunities to learn more and to challenge myself.</p>
   </section>
 
   <section id="background">
-    <h2>🎓 Backgroud</h2>
+    <h2>🎓 Background</h2>
     <ul>
       <li> Barchelor's degree in Statistics from UNICAMP</li>
       <li> Master of Business Administration in Data Science and Analytics from USP/ESALQ</li>
@@ -143,20 +148,34 @@
   <div style="display: flex; flex-direction: column; gap: 2rem;">
     
     <!-- Projeto 1 -->
-    <a href="https://github.com/seuusuario/projeto1" target="_blank" style="text-decoration: none; color: inherit;">
+    <a href="https://github.com/gimarquest/face-detection-brandsight" target="_blank" style="text-decoration: none; color: inherit;">
       <div style="border: 1px solid #444; padding: 1rem; background-color: #1a1a1a;">
-        <h3 style="color: #ffffff;">Análise de Vendas</h3>
-        <p style="color: #cccccc;">Dashboard interativo para análise de vendas por região e produto.</p>
+        <h3 style="color: #ffffff;">Face recognition and counting in videos - Brandsight</h3>
+        <p style="color: #cccccc;">The project aim to be an MVP to innovate the 
+            Out of Home Media Audience Measurement. In the most diverse urban traffic 
+            centers billions of static and digital billborads with advertisements are
+            spread. The MVP proposes an AI camera able to identify and compute the 
+            number of distinct faces that passed in front of the ad. 
+        </p>
+        <p style="color: #cccccc;"> The first and only version of the algorithm so far, 
+            generates an interface where videos can be uploaded. The output is 
+            a video composed by the frames evaluated with boxes around the recognized 
+            faces and the number of unique ones over the entire video sequence. 
+        </p>
+        <p style="color: #cccccc;"> Developed in collaboration with André Zagolin,
+            Katia Carmona, Laura Oliveira and Marcelo Seabra during the Applied
+            Data Science for Business program of Bayswater College London.
+        </p>
         <div>
           <img src="https://img.icons8.com/color/48/python.png" alt="Python" title="Python"/>
-          <img src="https://img.icons8.com/color/48/pandas.png" alt="Pandas" title="Pandas"/>
-          <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau" title="Tableau"/>
+          <!---<img src="https://img.icons8.com/color/48/pandas.png" alt="Pandas" title="Pandas"/>
+          <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau" title="Tableau"/>-->
         </div>
       </div>
     </a>
 
     <!-- Projeto 2 -->
-    <a href="https://github.com/seuusuario/projeto2" target="_blank" style="text-decoration: none; color: inherit;">
+    <!--<a href="https://github.com/seuusuario/projeto2" target="_blank" style="text-decoration: none; color: inherit;">
       <div style="border: 1px solid #444; padding: 1rem; background-color: #1a1a1a;">
         <h3 style="color: #ffffff;">Classificação de Clientes</h3>
         <p style="color: #cccccc;">Modelo de machine learning para segmentar clientes com base em comportamento de compra.</p>
@@ -166,7 +185,7 @@
           <img src="https://img.icons8.com/color/48/jupyter.png" alt="Jupyter" title="Jupyter"/>
         </div>
       </div>
-    </a>
+    </a>-->
 
   </div>
 </section>
